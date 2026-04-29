@@ -1,14 +1,20 @@
+package lista2;
+
 public class L204 {
     public static void main(String[] args) {
-        int num1 = 9;
-        int num2 = 7;
+      
+        int numero1 = 1;
+        int numero2 = 1;
         String resultado = "";
 
-        if (num1 > num2) {
-            resultado = "num1 = " +num1;
+        if (numero1 > numero2) {
+            resultado = "numero1 = " +numero1;
+        } else if (numero1 == numero2) {
+            resultado = "Os numeros sao iguais";
         } else {
-            resultado = "num2 = " +num2;
+            resultado = "numero2 = " +numero2;
         }
+        
         System.out.println(resultado);
     }
 }
