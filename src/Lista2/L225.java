@@ -37,11 +37,11 @@ public class L225 {
 
         in.close();
 
-        double valorUmReal = (double) qtdUmReal * 1.00; 
-        double valor50Centavos = (double) qtd50Centavos * 0.50;
-        double valor25Centavos = (double) qtd25Centavos * 0.25;
-        double valor10Centavos = (double) qtd10Centavos * 0.10;
-        double valor5Centavos = (double) qtd5Centavos * 0.05;
+        double valorUmReal = qtdUmReal * 1.00; 
+        double valor50Centavos = qtd50Centavos * 0.50;
+        double valor25Centavos = qtd25Centavos * 0.25;
+        double valor10Centavos = qtd10Centavos * 0.10;
+        double valor5Centavos = qtd5Centavos * 0.05;
 
         double valorTotal = valorUmReal + valor50Centavos + valor25Centavos + valor10Centavos + valor5Centavos;
 
@@ -53,9 +53,6 @@ public class L225 {
 
         System.out.printf("Valor do produto: R$ %.2f.", valorProduto);
         System.out.printf("%nValor no cofrinho: R$ %.2f.", valorTotal);
-        System.out.println("%n" + msg);
-
-
+        System.out.printf("%n%s", msg);
     }
-    
 }
