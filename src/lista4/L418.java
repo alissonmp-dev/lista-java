@@ -28,10 +28,10 @@ public class L418 {
                 somaIdades = somaIdades + idade;
                 numeroDePessoas++;
                 
-                if (idade < menorIdade && idade != 0) {
+                if (idade < menorIdade) {
                 menorIdade = idade;
                 }
-                if (idade > maiorIdade && idade != 0) {
+                if (idade > maiorIdade) {
                 maiorIdade = idade;
                 }
             }
