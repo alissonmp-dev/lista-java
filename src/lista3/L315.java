@@ -29,5 +29,7 @@ public class L315 {
         }
         
         System.out.println(mensagem);
+
+        in.close();
     }
 }

@@ -26,9 +26,8 @@ public class L405 {
     
         media = media / 5;
 
-        System.out.println("MEDIA = " + media);
-    
-    
-    
-    
-    }}
+        System.out.println("MEDIA = " + media);    
+        
+        in.close();
+    }
+}

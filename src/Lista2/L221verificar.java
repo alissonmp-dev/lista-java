@@ -4,7 +4,7 @@ package lista2;
 
 import java.util.Scanner;
 
-public class L221 {
+public class L221verificar {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
@@ -26,6 +26,7 @@ public class L221 {
 
         int voltasPorTrecho = qtdVoltas / trechosCorrida;
 
-        double distanciaVoltasPorTrecho = comprimentoPista 
+        double distanciaVoltasPorTrecho = comprimentoPista;
+        in.close();
     }
 }

@@ -37,5 +37,7 @@ public class L220 {
 
         System.out.printf("%nMedia de consumo por Km/L: %.2f", mediaConsumoKmL);
         System.out.printf("%nLucro liquido R$ %.2f.", lucroLiquido);
+
+        in.close();
     }
 }

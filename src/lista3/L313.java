@@ -41,5 +41,7 @@ public class L313 {
         System.out.printf("TOTAL SEM DESCONTO = R$ %.2f.", totalSemDesconto);
         System.out.printf("%nDESCONTO = R$ %.2f.", valorDesconto);
         System.out.printf("%nTOTAL COM DESCONTO: R$ %.2f.", totalComDesconto);
+
+        in.close();
     }
 }

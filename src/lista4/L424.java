@@ -16,19 +16,50 @@ public class L424 {
         Scanner in = new Scanner(System.in);
 
         String nome = "0";
+        int homemMaisAlto = Integer.MIN_VALUE;
+        String nomeHomemMaisAlto = "";
+        double mulherMaisPesada = Integer.MIN_VALUE;
+        String nomeMulherMaisPesada = "";
+        int somaIdadeAtletas = 0;
+        int qtdAtletas = 0;
 
-        while (nome != "@") {
-            System.out.println("INFORME O NOME: ");
-            nome = in.nextLine();
-            System.out.println("INFORME O SEXO: ");
+
+        while (!nome.equals("@")) {
+            System.out.print("INFORME O NOME: ");
+            nome = in.next();
+            if (!nome.equals("@")) {
+            System.out.print("INFORME O SEXO: ");
             String sexo = in.next();
-            System.out.println("INFORME A IDADE: ");
-            String idade = in.next();
-            System.out.println("INFORME O PESO: ");
-            String peso = in.next();
-            System.out.println("INFORME A ALTURA: ");
-            String altura = in.next();
-
+            System.out.print("INFORME A IDADE: ");
+            int idade = in.nextInt();
+            System.out.print("INFORME O PESO: ");
+            double peso = in.nextDouble();
+            System.out.print("INFORME A ALTURA: ");
+            int altura = in.nextInt();
+            
+            if (sexo.equals("masculino")) {
+                if (homemMaisAlto < altura) {
+                    homemMaisAlto = altura;
+                    nomeHomemMaisAlto = nome;
+                }                
+            }
+            if (sexo.equals("feminino")) {
+                if (mulherMaisPesada < peso) {
+                    mulherMaisPesada = peso;
+                    nomeMulherMaisPesada = nome;
+                }
+            }
+            somaIdadeAtletas = somaIdadeAtletas + idade;
+            qtdAtletas++;
+            }
         }
+
+        double mediaIdade = (double) somaIdadeAtletas / qtdAtletas;
+
+        System.out.println("ATLETA  MASCULINO MAIS ALTO: " + nomeHomemMaisAlto);
+        System.out.println("ATLETA DO SEXO FEMININO MAIS PESADA: " + nomeMulherMaisPesada);
+        System.out.println("MEDIA DE IDADE DOS ATLETAS: " + mediaIdade);
+
+        in.close();
     }  
 }

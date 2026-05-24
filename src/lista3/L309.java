@@ -54,5 +54,7 @@ public class L309 {
         }
 
         System.out.print(situacao);
+
+        in.close();
     }
 }

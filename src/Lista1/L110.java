@@ -28,5 +28,7 @@ public class L110 {
         System.out.println("\nPublico total do evento = " + publicoTotal);
         System.out.printf("Valor arrecadado = R$ %.2f", valorArrecadado);
         System.out.printf("\nValor que seria arrecadado sem descontos = R$ %.2f", valorArrecadoSemDescontos);
+
+        in.close();
     }
 }
