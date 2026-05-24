@@ -1,8 +1,9 @@
 /*
-Escreva um algoritmo para ler um salário. O algoritmo deve “validar” a leitura do
-salário para aceitar somente um “salário válido”. Você deve definir o que é um
-“salário válido”. Escrever o salário lido
+Escreva um algoritmo para ler um salário.
+O algoritmo deve “validar” a leitura do salário para aceitar somente um “salário válido”. 
+Você deve definir o que é um “salário válido”. Escrever o salário lido
 */
+
 package lista4;
 
 import java.util.Scanner;

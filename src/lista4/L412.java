@@ -1,11 +1,12 @@
 /*
 Faça um programa que peça para o usuário digitar um valor qualquer (inteiro).
-Enquanto o valor digitado não for múltiplo 5, o programa continua solicitando ao
-usuário para digitar um valor. O programa somente irá encerrar quando o valor
-digitado for múltiplo de 5. Para isso, você precisa conhecer o operador utilizado para
-o resto da divisão: %. Ele deve ser utilizado da seguinte maneira, por exemplo:
+Enquanto o valor digitado não for múltiplo 5, o programa continua solicitando ao usuário para digitar um valor. 
+O programa somente irá encerrar quando o valor digitado for múltiplo de 5. 
+Para isso, você precisa conhecer o operador utilizado para o resto da divisão: %.
+Ele deve ser utilizado da seguinte maneira, por exemplo:
 A = B % C;
 */
+
 package lista4;
 
 import java.util.Scanner;

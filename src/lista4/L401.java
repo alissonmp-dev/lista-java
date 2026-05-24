@@ -1,3 +1,8 @@
+/*
+Ler um número inteiro n.
+Escrever a soma de todos os números de 1 até n.
+*/
+
 package lista4;
 
 import java.util.Scanner;

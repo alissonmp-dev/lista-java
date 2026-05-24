@@ -1,3 +1,8 @@
+/*
+Ler um número inteiro n. 
+Decidir se n é um número primo e apresente o resultado.
+*/
+
 package lista4;
 
 import java.util.Scanner;

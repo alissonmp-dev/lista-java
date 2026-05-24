@@ -19,8 +19,6 @@ public class L430 {
         double somaFatorial = 0;
         int numerador = 1;
         int denominador = 1;
-        int fatoraialDenominador = 0;
-
 
         System.out.print("DIGITE O VALOR DE N: ");
         int n = in.nextInt();
