@@ -73,15 +73,23 @@ public class L816 {
 
         bubbleSort(v3);
 
+        System.out.print("BOLHAS = { ");
+        for (int a = 0; a < v3.length; a++) {
+            System.out.print(v3[a] + " ");
+        }
+        System.out.println("}");
+
         in.close();
     }   
     public static void bubbleSort(int v3[]) {
         for (int i = 0; i < v3.length - 1; i++) {
-            for (int j = 0; j < v3.length - 1; i++) {
-                int temp = v3[j];
-                v3[j+1] = 
+            for (int j = 0; j < v3.length - 1; j++) {
+                if (v3[j] > v3[j+1]) {
+                    int temp = v3[j];
+                    v3[j] = v3[j+1];
+                    v3[j+1] = temp;
+                }    
             }
         }
-
-    }
+    }   
 }
