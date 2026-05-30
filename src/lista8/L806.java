@@ -1,7 +1,6 @@
 /*
-Escreva uma palavra, letra por letra, colocando cada letra em um vetor. Ao final,
-imprima na tela a palavra digitada, com o formato de uma palavra (uma letra após a
-outra).
+Escreva uma palavra, letra por letra, colocando cada letra em um vetor.
+Ao final, imprima na tela a palavra digitada, com o formato de uma palavra (uma letra após a outra).
 */
 
 package lista8;

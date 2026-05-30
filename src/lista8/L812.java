@@ -1,5 +1,6 @@
 /*
-Guarde em um array 10 idades. Exiba quantas pessoas são maior de idade (18 anos) e quantas são menores.
+Guarde em um array 10 idades. 
+Exiba quantas pessoas são maior de idade (18 anos) e quantas são menores.
 */
 
 package lista8;

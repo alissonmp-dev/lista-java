@@ -1,9 +1,9 @@
 /*
 Faça um programa, utilizando vetores, que armazene o resultado de uma votação.
-Considere que você tem 5 candidatos, e para cada voto, você deverá digitar 1, 2, 3,
-4 ou 5. que correspondem aos códigos de cada candidato. O programa deve parar
-de receber votos quando for digitado -1. Outros valores devem ser ignorados. No
-Final, indique qual o candidato vencedor da votação.
+Considere que você tem 5 candidatos, e para cada voto, você deverá digitar 1, 2, 3, 4 ou 5 que correspondem aos códigos de cada candidato. 
+O programa deve parar de receber votos quando for digitado -1. 
+Outros valores devem ser ignorados. 
+No final, indique qual o candidato vencedor da votação.
 */
 
 package lista8;

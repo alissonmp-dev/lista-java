@@ -4,6 +4,8 @@ O programa deve terminar quando todos os valores forem acertados.
 Dica: utilize um array extra
 */
 
+//aqui preciso adicionar para considerar quando esta fora de ordem e seria interessante tb considerar mostrar o valor acertado
+
 package lista8;
 
 import java.util.Scanner;

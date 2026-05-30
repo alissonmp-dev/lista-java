@@ -11,7 +11,7 @@ public class L815 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        int[] vetor = new int[5];
+        int[] vetor = new int[20];
 
         for (int i = 0; i < vetor.length; i++) {
             System.out.printf("INFORME O VALOR NA POSIÇÃO " + i + " DO VETOR: ");

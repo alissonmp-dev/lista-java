@@ -1,8 +1,6 @@
 /*
-Faça um programa onde você declara um vetor de 10 posições que receba
-respectivamente 10 valores do tipo float (você deverá digitá-los via teclado).
+Faça um programa onde você declara um vetor de 10 posições que receba respectivamente 10 valores do tipo float (você deverá digitá-los via teclado).
 Apresente então, a média desses 10 valores.
-
 */
 
 package lista8;

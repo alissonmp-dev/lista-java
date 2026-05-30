@@ -1,7 +1,6 @@
 /*
-Faça um programa que leia 10 valores do teclado, e que imprima esses valores
-divididos em 2 etapas: primeiro, somente os valores pares, e depois, somente os
-valores ímpares. 
+Faça um programa que leia 10 valores do teclado, e que imprima esses valores divididos em 2 etapas: 
+primeiro, somente os valores pares, e depois, somente os valores ímpares. 
 Identifique cada valor escrevendo ao lado do valor se ele é par ou ímpar.
 */
 

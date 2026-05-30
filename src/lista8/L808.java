@@ -1,7 +1,6 @@
 /*
-Escrever um programa que declare um vetor de 20 inteiros,
-leia um valor para cada posição
-e no final mostre quantos elementos possuem valor maior, menor e igual ao elemento do vetor que o usuário escolher
+Escrever um programa que declare um vetor de 20 inteiros, leia um valor para cada posição.
+E no final mostre quantos elementos possuem valor maior, menor e igual ao elemento do vetor que o usuário escolher
 */
 
 package lista8;
@@ -23,7 +22,7 @@ public class L808 {
         for (int i = 0; i < vetor.length; i++) {
             System.out.print(vetor[i] + " ");
         }
-        System.out.printf("}%n");
+        System.out.println(" }");
     
         System.out.println("ESCOLHA UMA POSIÇÃO DO VETOR (0 a 19): ");
         int posicao = in.nextInt();
@@ -42,6 +41,7 @@ public class L808 {
             }
         }
 
+        System.out.println("VALOR ESCOLHIDO = " + vetor[posicao]);
         System.out.println("MAIOR QUE O ESCOLHIDO = " + maiorQueOEscolhido);
         System.out.println("MENOR QUE O ESCOLHIDO = " + menorQueOEscolhido);
         System.out.println("IGUAL AO ESCOLHIDO = " + igualAoEscolhido);
