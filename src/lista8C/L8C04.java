@@ -1,6 +1,5 @@
 /*
 Dados dois vetores de tamanho N, faça um programa que diga se ambos possuem os mesmos valores (posição por posição).
-
 */
 
 package lista8C;
