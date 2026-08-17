@@ -26,7 +26,7 @@ public class L304 {
             return;
         }
 
-        if (valorA > valorB)&& 
+        if (valorA > valorB && 
             valorA > valorC && 
             valorB > valorC) {
             ordemDosValores = valorC + ", " + valorB + ", " + valorA;
